@@ -1,7 +1,7 @@
 Hamstring Rehab Analysis Dashboard
 A Streamlit-based sports science dashboard that visualizes recovery timelines for hamstring injuries. It uses Kaplan-Meier survival analysis to estimate the probability of Return to Training (RTT) and Return to Play (RTP) over time, allowing physios and coaches to benchmark rehab progress.
 
-🚀 Features
+Features
 Survival Analysis: Calculates and plots Kaplan-Meier curves for injury recovery.
 
 Interactive Filtering: Filter data by Player Position (e.g., Midfielder, Forward) and Leg Dominance.
@@ -25,7 +25,7 @@ Plotly: For interactive charts.
 
 OpenPyXL: For reading/writing Excel files.
 
-📦 Installation
+ Installation
 Clone or Download this repository (or place your app2.py and create_data.py files in a dedicated folder).
 
 Install dependencies using pip:
@@ -52,7 +52,7 @@ Bash
 python -m streamlit run app2.py
 Your default web browser will open automatically with the dashboard.
 
-📂 Project Structure
+Project Structure
 Plaintext
 
 ├── app2.py              # Main application logic (Streamlit dashboard)
